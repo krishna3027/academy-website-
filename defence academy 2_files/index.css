@@ -1,0 +1,192 @@
+#slide{ width:100%; height:700px;float:left; border-bottom:1px solid #F0F0F0;}
+
+.dvcntr{width:1200px;height:auto;margin:0 auto;}
+
+#cmintl h5{font-size:18px;font-weight:300;margin:0 0 5px 0;font-weight:600;line-height:1em;}
+#cmintl p{font-size:15px;margin:0;line-height:1.2em;}
+
+
+#cmtemh{
+    width:100%;
+    background-color: #b2b2b244;
+    height:auto;float:left;padding:80px 0;
+}
+#cmtemb{width:100%;height:auto;float:left;padding:80px 0;color:#FFFFFF;}
+
+#cmtemc{width:1200px;height:auto;margin:0 auto;}
+#cmtemc h2{
+    font-size:25px;font-weight:700;
+    margin:0;
+    color:#3E6D9C;
+    line-height:1em;
+}
+#cmtemc p{line-height:1em;margin:5px 0 40px 0;}
+
+#cmteam{width:1200px;height:auto;float:left;}
+#cmtone,#cmttwo,#cmttre{width:366px;height:auto;float:left;}
+#cmttwo{margin:0 51px;}
+
+/* #cmteam #cmtone:hover{
+    background:green;
+} */
+
+#cmteam a#custom{
+    display:block; border-radius:20px; 
+    background-color:#000000;
+    color:#FFFFFF;
+    box-shadow: 
+
+    10px 50px 70px rgba(0,0,0,0.45),
+    /* inset 5px 5px 10px rgba(0,0,0,0.5), */
+    /* inset 5px 5px 20px rgba(255,255,255,0.2); */
+    /* right */
+    inset -5px -5px 15px rgba(0,0,0,0.75);
+    clear:both;padding:20px;text-transform:uppercase;margin-top:30px; float:right; font-size:14px; 
+    font-weight:600; text-decoration:none; text-align:center; width:400px;}
+
+.cmtmbr{ width:180px; position:absolute;background-color:#FFFFFF;padding:6px 20px;margin:170px 0 0 3px;}
+.cmtnme{font-size:18px;font-weight:600;line-height:1em;margin-bottom:3px;color:#222222;}
+.cmtdsg{font-size:12px;font-weight:600;line-height:1em;text-transform:uppercase;color:#999999;}
+
+.cmtpic{ 
+    width:100%;
+    border-radius:20px; 
+    height:auto; 
+    float:left; 
+    border:2px solid #FFFFFF;  
+    box-sizing:border-box;
+    /* box-shadow:0 0 10px #F5F5F5;  */
+    box-shadow: 10px 50px 70px rgba(0,0,0,0.45),
+    inset 5px 5px 10px rgba(0,0,0,0.5),
+    inset 5px 5px 20px rgba(255,255,255,0.2);
+}
+
+.cmtpic img{max-width:100%; border-radius:20px; height:auto;float:left;}
+
+
+
+
+
+/* custom hover images css  */
+
+#cmtone,#cmttwo,#cmttre {
+	position: relative;
+	/* width: 50%; */
+  }
+  
+  .cmtpic {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+  }
+  
+  /* .middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+  } */
+  
+
+  .middle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffe7ccb9;
+    border-radius: 20px;
+  }
+  /* #cmttwo:hover .cmtpic {
+    display: none;
+	opacity: 0.5;
+  }
+   */
+
+   .cmtpic img:hover{
+	opacity: 0.5;
+   }
+
+  #cmtone:hover .middle {
+	opacity: 1; 
+  }
+  
+  
+  #cmttre:hover .middle {
+	opacity: 1; 
+  }
+  
+  
+  #cmttwo:hover .middle {
+	opacity: 1; 
+  }
+  
+  .text {
+	background-color: #87A2FB;
+	color: white;
+	font-size: 16px;
+	padding: 8px 16px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .text:hover{
+    background-color: #001253;
+  }
+
+  /* hover section ends here  */
+
+#cmtemb .cmtpic{ box-shadow:none;}
+
+
+.cntlst{width:100%;height:auto;float:left;}
+.cntlst p a{
+    width:100%;height:auto;display:block;font-size:13px;float:left;
+    text-align:center;text-decoration:none;background-color:#009966;
+    padding:15px 0;margin-top:20px;color:#FFFFFF;
+    text-transform:uppercase;
+    border-radius: 15px;
+}
+.cntlst p a:hover{font-weight:600;}
+
+#cmtemb p a{ background-color:#001F7E;font-weight:600;}
+
+
+#cntprs{width:782px;height:auto;float:left;margin-right:50px;}
+
+
+#cntprs li{ list-style:none;}
+
+.cntprl{width:782px;height:auto;float:left; margin-bottom:30px;}
+
+.cntpic{width:200px;height:auto;float:left;margin-right:40px;}
+.cntpic img{max-width:100%;height:auto;float:left;
+    border-radius:25px;
+    padding:5px;border:1px solid #F0F0F0; box-sizing:border-box;}
+
+.cntdes{
+    width:542px;
+    height:auto;float:left;
+}
+.cntdte{
+    width:542px;height:auto;float:left;font-size:14px;font-weight:700;line-height:1em;
+    text-transform:uppercase;
+    color:#000000;
+    margin-bottom:15px;
+    }
+.cntlnk{width:542px;height:auto;float:left;}
+.cntlnk a{font-size:25px;font-weight:700;color:#001F7E; text-decoration:none; line-height:1.1em;}
+.cntlnk a:hover{ text-decoration:underline;}
