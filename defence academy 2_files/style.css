@@ -1,6 +1,17 @@
 
 
-body{width:fit-content;height:auto;float:left;margin:0;font-family: 'Open Sans', sans-serif;}
+body{
+    width:fit-content;height:auto;
+    /* float:left; */
+    
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+
 .divmdl{width:fit-content;height:auto;margin:0;}
 h1,h2,h3,h4,h5,h6{font-family: 'Poppins', sans-serif;color:#000033;line-height:1em;}
 
@@ -59,8 +70,21 @@ h1,h2,h3,h4,h5,h6{font-family: 'Poppins', sans-serif;color:#000033;line-height:1
 
 #tlogoh{width:100%;height:auto;float:left;border-bottom:1px solid #F0F0F0; padding:10px 0;}
 #tlogoc{width:1200px;height:auto;margin:0 auto;}
-#tlogol{width:330px;height:58px;float:left;}
-#tlogoq{width:auto; height:auto; float:right;}
+#tlogol{
+    width:650px;
+    height:90px;
+    float:left;
+}
+#tlogol img{
+    width:650px;
+    height:90px;
+}
+#tlogoq{
+    width:auto; 
+    height:auto; 
+    float:right;
+    padding-top: 20px;
+}
 #tlogoq ul{margin:5px 0;}
 #tlogoq ul li{list-style:none;margin-left:10px;
     float:left;
@@ -118,27 +142,6 @@ h1,h2,h3,h4,h5,h6{font-family: 'Poppins', sans-serif;color:#000033;line-height:1
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #ftrbtm{width:100%;height:auto;float:left;background-color:#000011; padding: 70px 0 80px 0;}
 #ftrbtm h6{font-family: 'Poppins', sans-serif;font-size:20px;font-weight:700;color:#AAAAAA;margin:0 0 5px 0;clear:both;}
 #ftrbtm p{font-size:15px;font-weight:400;color:#888888;margin:8px 0 15px 0;}
@@ -185,3 +188,10 @@ h1,h2,h3,h4,h5,h6{font-family: 'Poppins', sans-serif;color:#000033;line-height:1
 #ftrcpy p{font-size:15px;font-weight:400;color:#FFFFFF;margin:0;}
 #ftrcpy a{color:#FFFFFF;text-decoration:none;}
 #ftrcpy a:hover{text-decoration:underline;}
+
+
+/* mobile resposiveness  */
+
+@media only screen and (max-width: 768px) {
+  
+}
